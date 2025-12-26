@@ -13,3 +13,13 @@ variable "admin_ip" {
     type  = string
     description = "My IP address"
 }
+
+variable "instance_type" {
+    type = string
+    description = "Type of Instance used"
+}
+
+variable "key_name" {
+    type = string
+    description = "EC2 key pair name for SSH access"
+}

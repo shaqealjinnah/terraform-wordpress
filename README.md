@@ -31,7 +31,7 @@ terraform-wordpress/
 - AWS CLI
 - IAM least privileges applied to your AWS user
 - Terraform installed locally
-- Create S3 bucket for remote backend on AWS consolegit
+- Create S3 bucket for remote backend on AWS console
 
 ## How to Deploy
 
@@ -51,8 +51,8 @@ terraform init
 ### 3. Review & Apply Infrastructure
 
 ```bash
-terraform apply
 terraform plan
+terraform apply
 ```
 
 ### 4. Check the Live Site

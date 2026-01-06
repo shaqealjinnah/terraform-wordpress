@@ -106,7 +106,7 @@ resource "aws_instance" "wordpress_instance" {
 
     key_name = var.key_name
 
-    user_data = file("${path.module}/install_wordpress.sh")
+    user_data = file("${path.module}/../scripts/install_wordpress.sh")
 
     tags = {
         Name = "wordpress-instance"

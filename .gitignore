@@ -11,4 +11,3 @@ terraform.tfvars
 # Environment files
 .env
 .env.*
-
